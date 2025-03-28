@@ -45,8 +45,10 @@ public class ProjetoBanco {
                 } else {
                     System.out.println("Não há saldo suficiente para fazer esse saque.");
                 }
-            }if (opcao > 4 ) {
-                System.out.println("Opcao invalida!");
+            } else if (opcao == 4 ) {
+                System.out.println("Saindo do sistema...");
+            } else {
+                System.out.println("Opção invalida!");
             }
         }
     }
